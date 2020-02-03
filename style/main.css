@@ -85,7 +85,6 @@ main {
 
 .feeds_list {
   width: 616px;
-  height: 853px;
   border: 1px solid #dbdbdb;
   border-radius: 3px;
 }
@@ -226,7 +225,6 @@ button {
   border-radius: 3px;
   background-color: white;
   margin-bottom: 14px;
-  overflow: scroll;
 }
 
 .stories_header {
@@ -239,6 +237,10 @@ button {
   padding-left: 23px;
 }
 
+.stories_main {
+  height: 176px;
+  overflow: scroll;
+}
 .stories_list {
   list-style: none;
   display: flex;
@@ -361,7 +363,6 @@ button {
 /* 메인 피드와 스토리 부분 이미지 사이즈 */
 .feeds_main-image {
   width: 614px;
-  height: 614px;
 }
 
 .header-profile-photo {

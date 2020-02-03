@@ -38,6 +38,12 @@
   margin-top: -100px;
 }
 
+.login_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .input_id,
 .input_password {
   width: 269px;
