@@ -1,0 +1,402 @@
+.nav_header {
+  background-color: white;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 77px;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.nav_header-box {
+  width: 937px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 160px;
+  height: 36px;
+}
+
+.imglogo {
+  width: 24px;
+  height: 24px;
+}
+
+.nav_left-line {
+  width: 1px;
+  height: 28px;
+  background-color: black;
+  margin-top: -5px;
+}
+
+.textlogo {
+  width: 103px;
+  height: 29px;
+  margin-top: 2px;
+}
+
+.search-bar_place {
+  width: 215px;
+  height: 28px;
+  font-size: 13px;
+  text-align: center;
+  background-color: #fafafa;
+  border: 1.1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.nav_right-icons {
+  width: 24px;
+  height: 24px;
+}
+
+.nav_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 131px;
+}
+
+/*메인 페이지 시작*/
+main {
+  background-color: #fafafa;
+  width: 100%;
+}
+.mainpage {
+  width: 935px;
+  margin: 0 auto;
+  padding-top: 129px;
+  display: flex;
+}
+
+.feeds {
+  background-color: white;
+  margin-right: 29px;
+}
+
+.feeds_list {
+  width: 616px;
+  height: 853px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+}
+
+.header-profile {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header-profile-image {
+  margin-left: 18px;
+  margin-right: 16px;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.header-profile-where {
+  font-size: 12px;
+  margin-top: -1px;
+}
+
+.header-dot {
+  margin-left: 393px;
+}
+
+.content_part-contents {
+  font-size: 14px;
+}
+
+.comment-icon {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+button {
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  padding: 8px;
+}
+
+.comment-icon_image1 {
+  margin-left: 6px;
+}
+
+.bookmark-icon_image4 {
+  margin-left: 440px;
+}
+
+.likes_part,
+.time_part {
+  margin-left: 16px;
+}
+
+.likes_part {
+  margin-bottom: 3px;
+}
+
+.content_part-name {
+  margin-left: 16px;
+}
+
+.time_part {
+  margin-bottom: 7px;
+}
+
+.addcomment {
+  width: 614px;
+  height: 56px;
+  border-top: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addcomment_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addcomment_box {
+  font-size: 13px;
+  color: black;
+  margin-left: 10px;
+  width: 553.3px;
+  height: 18px;
+  border: 0;
+  resize: none;
+}
+
+::placeholder {
+  color: #999;
+}
+
+.post_button {
+  padding-left: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #3798f0;
+}
+
+.main_right {
+  width: 293px;
+  height: 580px;
+}
+
+.my {
+  display: flex;
+  align-items: center;
+  height: 53px;
+  margin-bottom: 17px;
+}
+
+.myprofile {
+  margin-left: 5px;
+  margin-bottom: -3px;
+}
+
+.myprofile_content {
+  margin-left: 15px;
+}
+.myprofile_content .myprofile_name {
+  display: block;
+  margin-bottom: -5px;
+}
+
+.stories {
+  height: 223px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: white;
+  margin-bottom: 14px;
+  overflow: scroll;
+}
+
+.stories_header {
+  display: flex;
+  justify-content: space-between;
+  margin: 13px 17px;
+}
+
+.stories_main > ul {
+  padding-left: 23px;
+}
+
+.stories_list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.stories_profile {
+  width: 42px;
+  height: 42px;
+  top: -5px;
+  left: -5px;
+  border: 2px solid #dc3173;
+  border-radius: 50%;
+  position: relative;
+}
+
+.stories_profile-content .stories_profile_name {
+  display: block;
+  margin-bottom: -4px;
+}
+
+.stories_profile-content {
+  margin-left: 5px;
+  margin-top: -11px;
+}
+
+.suggestion {
+  height: 197px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+.suggestion_header {
+  display: flex;
+  justify-content: space-between;
+  margin: 13px 17px;
+}
+
+.suggestion_list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.suggestion-main > ul {
+  padding-left: 20px;
+}
+
+.suggestion_profile-content .suggestion_profile_name {
+  display: block;
+  margin-bottom: -4px;
+}
+
+.suggestion_profile-content {
+  margin-left: 12px;
+  margin-top: -10px;
+}
+
+.follow-btn1 {
+  margin-left: 112px;
+}
+
+.follow-btn2 {
+  margin-left: 18px;
+}
+/* 공통 프로필명 */
+.name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.bottom-name {
+  font-size: 12px;
+  color: #999;
+}
+
+.time_part-ago {
+  font-size: 10px;
+}
+
+.stories_header-title,
+.suggestion_header-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #999;
+}
+
+.stories_header-see,
+.suggestion_header-see {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.follow-btn1,
+.follow-btn2 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #3798f0;
+}
+
+.etc_first,
+.etc_second,
+.etc_company {
+  font-size: 11px;
+  color: #c7c7c7;
+}
+
+.etc_first {
+  margin-bottom: 4px;
+}
+
+.etc_second {
+  margin-bottom: 20px;
+}
+
+/* 메인 피드와 스토리 부분 이미지 사이즈 */
+.feeds_main-image {
+  width: 614px;
+  height: 614px;
+}
+
+.header-profile-photo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.dot_image,
+.heart-button_image,
+.comment-button_image,
+.share-button_image,
+.bookmark-button_image {
+  width: 24px;
+  height: 24px;
+}
+
+.myprofile_picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.stories_profile_picture {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.suggestion_profile_picture {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #dbdbdb;
+}
