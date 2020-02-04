@@ -235,6 +235,7 @@ button {
 
 .stories_main > ul {
   padding-left: 23px;
+  margin-top: 6px;
 }
 
 .stories_main {
@@ -400,4 +401,26 @@ button {
   height: 32px;
   border-radius: 50%;
   border: 1px solid #dbdbdb;
+}
+
+/* 댓글 기능 */
+.newComment {
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.newDiv {
+  margin-left: 16px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.heartIcon {
+  width: 12px;
+  opacity: 50%;
+}
+
+.heartIcon-box {
+  position: absolute;
+  right: 17px;
 }

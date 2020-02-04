@@ -1,20 +1,21 @@
-const logIn = document.querySelector(".howManyInput");
+const logIn = document.querySelector(".login_main");
 const loginId = document.querySelector(".input_id");
 const loginPassword = document.querySelector(".input_password");
 
-function changeColor(event) {
+function changeColor() {
   const loginBtn = document.querySelector(".login-btn");
+  const idLength = loginId.value.length;
+  const passwordLength = loginPassword.value.length;
 
-  if (loginId.value.length !== 0 && loginPassword.value.length !== 0) {
-    loginBtn.style.color = "black";
+  if (idLength !== 0 && passwordLength !== 0) {
     loginBtn.style.backgroundColor = "#3798F0";
+  } else {
+    loginBtn.style.backgroundColor = " #c6dffa";
   }
 }
 
 function loginBtnActivation() {
-  const logIn = document.querySelector(".howManyInput");
-  console.log(logIn);
-  logIn.addEventListener("onclick", changeColor);
+  logIn.addEventListener("keyup", changeColor);
 }
 
-console.log(document.querySelector(".howManyInput"));
+loginBtnActivation();
