@@ -32,7 +32,7 @@ function uploadComment() {
   }
 
   createTag.addEventListener("click", function(e) {
-    e.target.remove();
+    createTag.remove();
   });
 }
 

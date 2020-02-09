@@ -47,7 +47,6 @@
 .input_id,
 .input_password {
   width: 269px;
-  height: 38px;
   border-radius: 3px;
   border: 1px solid rgba(0, 0, 0, 0.034);
   background-color: #fafafa;
